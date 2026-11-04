@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Meric Topal — Backend Developer (Python), Computer Science Engineering student.">
+  <meta name="theme-color" content="#101827">
+  <title>Meric Topal | Backend Developer</title>
+  <style>
+    :root { color-scheme: dark; --bg:#0b1020; --panel:#121a2b; --text:#f3f6fc; --muted:#aab5c8; --line:#29354a; --accent:#80d4c5; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin:0; font: 16px/1.65 Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background:radial-gradient(ellipse at top right,#1a3150 0,transparent 42%),var(--bg); color:var(--text); }
+    a { color:var(--accent); text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    .wrap { width:min(100% - 32px, 980px); margin:0 auto; }
+    header { padding:76px 0 42px; }
+    .eyebrow { color:var(--accent); font-size:.8rem; font-weight:750; letter-spacing:.18em; text-transform:uppercase; }
+    h1 { font-size:clamp(2.6rem,7vw,5rem); line-height:1.03; letter-spacing:-.055em; margin:14px 0 12px; }
+    .role { color:#d1d9e8; font-size:clamp(1.1rem,2.6vw,1.45rem); }
+    .intro { max-width:720px; color:var(--muted); margin:22px 0 26px; }
+    .actions { display:flex; flex-wrap:wrap; gap:12px; margin:24px 0; }
+    .btn { display:inline-flex; align-items:center; justify-content:center; padding:11px 17px; border-radius:10px; border:1px solid var(--line); font-weight:700; }
+    .btn.primary { background:var(--accent); color:#08151a; border-color:var(--accent); }
+    .meta { color:var(--muted); font-size:.95rem; }
+    main { padding:10px 0 64px; }
+    section { margin:26px 0; padding:25px; background:rgba(18,26,43,.78); border:1px solid var(--line); border-radius:18px; }
+    h2 { margin:0 0 16px; font-size:1.25rem; letter-spacing:-.02em; }
+    .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; }
+    .item { padding:16px; border-radius:12px; background:#0e1626; border:1px solid #202d42; }
+    .item h3 { margin:0 0 5px; font-size:1rem; }
+    .item p { margin:0; color:var(--muted); font-size:.94rem; }
+    .date { color:var(--accent); font-size:.83rem; margin-bottom:6px; }
+    .chips { display:flex; flex-wrap:wrap; gap:8px; }
+    .chip { border:1px solid var(--line); border-radius:999px; padding:5px 10px; color:#d3dcec; font-size:.88rem; }
+    footer { padding:0 0 34px; color:var(--muted); font-size:.88rem; }
+    @media(max-width:650px) { header{padding-top:52px} .grid{grid-template-columns:1fr} section{padding:19px} }
+  </style>
+</head>
+<body>
+  <header class="wrap">
+    <div class="eyebrow">Backend Development · Python · Software Engineering</div>
+    <h1>Meric Topal</h1>
+    <div class="role">Backend Developer (Python) · Computer Science Engineering Student</div>
+    <p class="intro">I build maintainable backend systems, data-driven tools, and automation pipelines. My experience spans Python APIs, SQL engines, rule-based processing, testing, and production-oriented software architecture.</p>
+    <div class="actions">
+      <a class="btn primary" href="./Meric_Topal_CV.pdf" target="_blank" rel="noopener">View CV (PDF)</a>
+      <a class="btn" href="https://github.com/merictopal" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn" href="https://linkedin.com/in/meric-topal-129084217" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn" href="mailto:merictopal@hotmail.com.tr">Email me</a>
+    </div>
+    <div class="meta">University of Pécs · BSc Computer Science Engineering · Expected February 2027</div>
+  </header>
+
+  <main class="wrap">
+    <section>
+      <h2>Experience</h2>
+      <div class="grid">
+        <article class="item">
+          <div class="date">Jul 2026 – Aug 2026</div>
+          <h3>Intern — IT Budget Control &amp; Compliance</h3>
+          <p><strong>BEKO · Global IT</strong><br>Built Python automation and budget-control tooling, Excel/VBA dashboards, and reporting pipelines; delivered documented systems for handover.</p>
+        </article>
+        <article class="item">
+          <div class="date">Jul 2025 – Jun 2026</div>
+          <h3>Backend Developer (Python)</h3>
+          <p><strong>Frontier Intelligence LLC · Remote</strong><br>Developed backend services and REST APIs, SQL matching and scoring logic, database triggers and scheduled recalculation workflows.</p>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Selected projects</h2>
+      <div class="grid">
+        <article class="item">
+          <h3>IT Finance Copilot</h3>
+          <p>Python budget-analysis engine with traceable explanations, split/merge detection, automated tests, strict typing, and architecture checks.</p>
+        </article>
+        <article class="item">
+          <h3>Evidence Sanitization Assistant</h3>
+          <p>Offline OCR and computer-vision pipeline that detects and redacts sensitive information in screenshot evidence.</p>
+        </article>
+        <article class="item">
+          <h3>Cloud-Native Banking Ledger</h3>
+          <p>Java/Spring Boot microservices with Kafka-based event communication, Docker, and PostgreSQL.</p>
+        </article>
+        <article class="item">
+          <h3>FoodShare Hungary</h3>
+          <p>Cross-platform student food-sharing app with a Python REST API, PostgreSQL/PostGIS, recommendations, QR claims, and trilingual UI.</p>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Technical skills</h2>
+      <div class="chips">
+        <span class="chip">Python</span><span class="chip">SQL</span><span class="chip">FastAPI</span><span class="chip">Flask</span>
+        <span class="chip">Django</span><span class="chip">Java / Spring Boot</span><span class="chip">REST APIs</span>
+        <span class="chip">PostgreSQL</span><span class="chip">MariaDB</span><span class="chip">Docker</span><span class="chip">Kafka</span>
+        <span class="chip">pytest</span><span class="chip">mypy</span><span class="chip">AWS</span><span class="chip">TypeScript</span>
+        <span class="chip">OpenCV / OCR</span><span class="chip">Git / GitHub</span><span class="chip">CI</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Education &amp; languages</h2>
+      <div class="grid">
+        <article class="item">
+          <h3>BSc Computer Science Engineering</h3>
+          <p>University of Pécs, Hungary · Sep 2023 – Feb 2027<br>GPA: 4.23 / 5.00</p>
+        </article>
+        <article class="item">
+          <h3>Languages</h3>
+          <p>Turkish (native), English (fluent), German (basic), Hungarian (basic)</p>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p class="meta">For software engineering opportunities, feel free to get in touch.</p>
+      <p><a href="mailto:merictopal@hotmail.com.tr">merictopal@hotmail.com.tr</a> · <a href="https://linkedin.com/in/meric-topal-129084217" target="_blank" rel="noopener">LinkedIn</a> · <a href="https://github.com/merictopal" target="_blank" rel="noopener">GitHub</a></p>
+      <p class="meta">Phone / WhatsApp: +36 20 537 2648</p>
+      <a class="btn primary" href="./Meric_Topal_CV.pdf" target="_blank" rel="noopener">Download CV</a>
+    </section>
+  </main>
+  <footer class="wrap">© 2026 Meric Topal · Hosted with GitHub Pages</footer>
+</body>
+</html>
